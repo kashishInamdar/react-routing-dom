@@ -1,0 +1,14 @@
+.lineButton{
+    background-color: aqua;
+    margin: 5px;
+    padding: 5px;
+    cursor: pointer;
+    border: 5px double #fff;
+    border-radius:7px ;
+    font-size: 25px;
+}
+.lineButton:hover{
+    background-color: rgb(27, 27, 33);
+    color: #fff;
+    border:5px double bisque;
+}

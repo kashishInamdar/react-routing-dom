@@ -1,0 +1,104 @@
+.bg-black{
+    background-color: #000;
+}
+.text-white{
+    color: #fff;
+}
+
+.body1
+{
+    background-color: #080808;
+    color: #fff;
+}
+.dsplay-flex{
+    display: flex;
+    justify-content: space-around;
+}
+span{
+    color: #ff004f;
+}
+
+.btn-box .btn {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 15rem;
+    height: 100%;
+    background: var(--main-color);
+    border: .2rem solid var(--main-color);
+    border-radius: .8rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    color: var(--bg-color);
+    z-index: 1;
+    overflow: hidden;
+    transition: .5s;
+}
+.container{
+    padding-left : 10% ;
+    padding-right: 10%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px
+}
+.logo{
+    width: 140px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin-top: 10px ; 
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+nav ul a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+}
+nav ul a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background-color: #ff004f;
+    position: absolute;
+    left: 10%;
+    bottom: -6px;
+    transition: 0.5s;
+}
+nav ul a:hover::after{
+    width: 80%;
+}
+.colume-4{
+    flex-basis: 35%;
+    padding-top: 5%;
+}
+.colume-4 img{
+
+    width: 300px;
+    border-radius:50%;
+    
+}
+
+.header-text{
+    padding-top: 15%;
+    font-size: 30px
+}
+.header-text h1{
+    font-size: 60px;
+}
+.page-activ::after{
+    width: 80%;
+    background-color: #ff004f;
+}

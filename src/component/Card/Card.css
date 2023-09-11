@@ -1,0 +1,32 @@
+.card{
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 300px;
+    text-align: center;
+    padding: 5px;
+}
+.card-img{
+    height: 250px;
+    width: 280px;
+}
+
+/* --------------- About Card -------------- */
+.about-card{
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: left;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.about-card-img{
+    height: 350px;
+    width: 480px;
+    border-radius: 10px;
+}
+.about-card-containt{
+    width: 600px;
+    font-size: 25px;
+}

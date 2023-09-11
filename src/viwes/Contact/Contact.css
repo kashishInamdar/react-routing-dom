@@ -1,0 +1,14 @@
+.form{
+    background-color: rgb(184, 228, 246);
+    border: 2px double rgb(32, 91, 115);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 30px;
+    width: 500px;
+    margin-left: 30%;
+}
+.input{
+    width: 100px;
+}
